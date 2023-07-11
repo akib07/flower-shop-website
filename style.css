@@ -1,0 +1,445 @@
+/**
+ * Fonts 
+ * Lato
+ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  color: #111010;
+  background-color: #fff;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+a {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+section {
+  padding: 15px 0;
+  max-width: 1920px;
+}
+
+/**
+ *
+ * Common CSS
+ *
+ */
+
+.btn {
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: capitalize;
+  padding: 20px 35px;
+}
+
+.btn-primary {
+  background-color: #e55473;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #e55473;
+  border: 1px solid #e55473;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/**
+ * Header style
+ */
+.header {
+  padding: 10px 20px;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #111010;
+}
+
+.header-title {
+  font-family: "Lato, sans-serif";
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 20px 0;
+}
+
+/**
+ * Navigation menu
+ */
+.navbar {
+  padding-top: 20px;
+}
+.navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  line-height: 0.8;
+  padding: 25px 10px;
+}
+
+.navbar li a {
+  color: #fff;
+  padding: 20px 15px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #fff;
+  background-color: #e55473;
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+/*************************
+ * Banner section
+ */
+.banner {
+  background-color: #fceef1;
+  max-width: 1920px;
+  max-height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.banner-content {
+  padding-left: 100px;
+  color: #272727;
+}
+
+.banner-title {
+  font-family: "Lato, sans-serif";
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.banner-description {
+  font-family: "Lato, sans-serif";
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+.banner-right {
+  padding-top: 50px;
+}
+.banner-img {
+  width: 635px;
+  height: auto;
+  padding-right: 150px;
+}
+
+
+/*************************
+ * Hot Deal section
+ */
+ .hotdeal {
+  background-color: #fceef1;
+  max-width: 1920px;
+  max-height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.hotdeal-content {
+  padding-left: 150px;
+  color: #272727;
+  text-align: center;
+}
+
+.hotdeal-title {
+  font-family: "Lato, sans-serif";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.hotdeal-description {
+  font-family: "Lato, sans-serif";
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hotdeal-img {
+  width: auto;
+  height: 420px;
+  padding-right: 150px;
+}
+
+
+/*************************
+ * Our Featured Flower
+ */
+.featuredflower {
+  padding: 20px 0;
+  background-color: #fceef1;
+  max-width: 1920px;
+  max-height: 850px;
+}
+
+.featuredflower-content {
+  padding: 10px 20px;
+  color: #272727;
+  text-align: center;
+}
+
+.featuredflower-title {
+  font-family: "Lato, sans-serif";
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.featuredflower-description {
+  font-family: "Lato, sans-serif";
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.flowerbox {
+  background-color: #fceef1;
+  max-width: 1920px;
+  max-height: 850px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flower-item-box {
+  background-color: #f2dee7;
+  width: 400px;
+  height: 500px;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+}
+
+.flower-item-box2 {
+  background-color: #d9eff1;
+  width: 400px;
+  height: 500px;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+}
+
+.flower-item-box3 {
+  background-color: #e3ebdb;
+  width: 400px;
+  height: 500px;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+}
+
+.flower-item-img {
+  width: auto;
+  height: 500px;
+  padding-top: 100px;
+  border-bottom: none;
+}
+
+.flowerbox-title {
+  font-family: "Lato, sans-serif";
+  color: #272727;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+/*************************
+ * Get Deal section
+ */
+
+.getdeal {
+  background-color: #fceef1;
+  background-image: url("/assets/Rectangle\ 9.png");
+  max-width: 1440px;
+  max-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.getdeal-content {
+  padding: 40px 20px;
+  color: #272727;
+  text-align: center;
+}
+
+.getdeal-title {
+  font-family: "Lato, sans-serif";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.getdeal-description {
+  font-family: "Lato, sans-serif";
+  color: #272727;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subscribe {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.inputstyle {
+  width: 600px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.inputstyle:hover {
+  border: 1px solid #e55473;
+}
+
+.submitstyle {
+  padding: 20px 10px;
+  background-color: #e55473;
+  color: #fff;
+  border-radius: 10px;
+  width: 150px;
+  border: none;
+  font-size: 18px;
+}
+
+.submitstyle:hover {
+  background-color: #111010;
+  cursor: pointer;
+}
+
+/*************************
+ * Footer
+ */
+.footer {
+  background-color: #111010;
+  max-width: 1920px;
+  max-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content {
+  padding-left: 150px;
+  color: #272727;
+  text-align: center;
+  padding: 100px 200px;
+}
+
+.footer-title {
+  font-family: "Lato, sans-serif";
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 15px 0;
+}
+
+.spantitle {
+  font-family: "Lato, sans-serif";
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-description {
+  font-family: "Lato, sans-serif";
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 15px 0;
+}
+
+.copyright {
+  font-family: "Lato, sans-serif";
+  color: #b1b1b1;
+  font-size: 16px;
+  padding: 15px 0;
+}
+
